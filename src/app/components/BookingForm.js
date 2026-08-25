@@ -25,7 +25,7 @@ export default function BookingForm() {
       `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nPreferred Language: ${formData.language}\nMode: ${formData.mode}\nPreferred Date/Time: ${formData.datetime}\n\nReason for Consultation:\n${formData.reason}`
     );
     
-    window.location.href = `mailto:lathavasantha49@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:lathavasanta49@gmail.com?subject=${subject}&body=${body}`;
     
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 4000);

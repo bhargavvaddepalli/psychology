@@ -440,7 +440,7 @@ export default function Home() {
                 <div>
                   <div className="booking-contact-label">Email</div>
                   <div className="booking-contact-value">
-                    <a href="mailto:lathavasantha49@gmail.com">lathavasantha49@gmail.com</a>
+                    <a href="mailto:lathavasanta49@gmail.com">lathavasanta49@gmail.com</a>
                   </div>
                 </div>
               </div>
@@ -519,7 +519,7 @@ export default function Home() {
               <h4>Get in Touch</h4>
               <div className="footer-contact-item">
                 <span>📧</span>
-                <span>lathavasantha49@gmail.com</span>
+                <span>lathavasanta49@gmail.com</span>
               </div>
               <div className="footer-contact-item">
                 <span>📍</span>
