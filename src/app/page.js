@@ -135,11 +135,7 @@ export default function Home() {
               A Safe Space for Your Mental Well-being
             </h2>
             <p className="about-text">
-              I am a dedicated MA Clinical Psychology professional committed to providing a
-              safe, empathetic, and transformative therapeutic experience. My
-              approach integrates evidence-based techniques with genuine human
-              connection, helping you navigate life&apos;s challenges with clarity
-              and resilience.
+              I am pursuing a Ph.D. as a doctoral scholar and am committed to providing a safe, empathetic, and transformative therapeutic experience. My approach integrates evidence-based techniques with genuine human connection, helping you navigate life's challenges with greater clarity, confidence, and resilience.
             </p>
             <p className="about-text">
               With experience spanning clinical settings, corporate wellness
@@ -151,7 +147,7 @@ export default function Home() {
               <div className="qualification-item">
                 <div className="qualification-icon">🎓</div>
                 <span className="qualification-text">
-                  M.Sc. Counselling Psychology
+                  MA clinical psychology
                 </span>
               </div>
               <div className="qualification-item">
@@ -444,7 +440,7 @@ export default function Home() {
                 <div>
                   <div className="booking-contact-label">Email</div>
                   <div className="booking-contact-value">
-                    lathavasantha49@gmail.com
+                    <a href="mailto:lathavasantha49@gmail.com">lathavasantha49@gmail.com</a>
                   </div>
                 </div>
               </div>
