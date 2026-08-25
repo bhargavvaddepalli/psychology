@@ -90,7 +90,6 @@ export default function BookingForm() {
             <select id="mode" name="mode" value={formData.mode} onChange={handleChange}>
               <option value="">Select mode</option>
               <option value="Online (Google Meet)">Online (Google Meet)</option>
-              <option value="Offline">Offline</option>
             </select>
           </div>
 

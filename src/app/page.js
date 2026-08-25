@@ -328,7 +328,7 @@ export default function Home() {
                 <div className="session-detail-content">
                   <div className="session-detail-label">Mode</div>
                   <div className="session-detail-value">
-                    Online (Google Meet) / Offline
+                    Online (Google Meet)
                   </div>
                 </div>
               </div>
