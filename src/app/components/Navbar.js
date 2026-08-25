@@ -41,6 +41,15 @@ export default function Navbar() {
     };
   }, [mobileOpen]);
 
+  useEffect(() => {
+    const closeOnDesktop = () => {
+      if (window.innerWidth > 900) setMobileOpen(false);
+    };
+
+    window.addEventListener('resize', closeOnDesktop);
+    return () => window.removeEventListener('resize', closeOnDesktop);
+  }, []);
+
   const handleNavClick = (e, id) => {
     e.preventDefault();
     setMobileOpen(false);
@@ -67,7 +76,15 @@ export default function Navbar() {
             Vaddepalli Latha
           </a>
 
-          <div className={`nav-links ${mobileOpen ? 'open' : ''}`}>
+          <div
+            className={`nav-links ${mobileOpen ? 'open' : ''}`}
+            id="mobile-navigation"
+            aria-hidden={!mobileOpen && undefined}
+          >
+            <div className="sidebar-heading" aria-hidden="true">
+              <span className="nav-logo-icon">ðŸŒ¿</span>
+              <span>Vaddepalli Latha</span>
+            </div>
             {links.map((link) => (
               <a
                 key={link.id}
@@ -86,6 +103,7 @@ export default function Navbar() {
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle navigation menu"
             aria-expanded={mobileOpen}
+            aria-controls="mobile-navigation"
           >
             <span></span>
             <span></span>
@@ -97,6 +115,7 @@ export default function Navbar() {
       <div
         className={`mobile-nav-overlay ${mobileOpen ? 'active' : ''}`}
         onClick={() => setMobileOpen(false)}
+        aria-hidden="true"
       />
     </>
   );
