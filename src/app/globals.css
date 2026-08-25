@@ -1877,13 +1877,18 @@ section {
 
 @media (max-width: 900px) {
   .navbar {
+    width: 100%;
     padding: 12px 0;
     background: rgba(253, 248, 240, 0.94);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
   }
 
-  .navbar .container { gap: 16px; }
+  .navbar .container {
+    width: 100%;
+    max-width: none;
+    gap: 12px;
+  }
 
   .nav-logo {
     min-width: 0;
@@ -1972,6 +1977,20 @@ section {
 
 @media (max-width: 768px) {
   html { scroll-padding-top: 72px; }
+
+  body,
+  section,
+  .navbar,
+  .stats,
+  .footer {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    max-width: none;
+  }
 
   .nav-links {
     width: min(82vw, 320px);
