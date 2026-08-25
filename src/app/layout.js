@@ -14,11 +14,11 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Vaddepalli Latha | Counselling Psychologist",
+  title: "Vaddepalli Latha | MA Clinical Psychology",
   description:
     "Offering a compassionate, confidential, and non-judgmental space for individuals seeking emotional support and guidance. 5+ years of experience in Clinical, Corporate and Rehabilitation Counselling.",
   keywords: [
-    "psychologist",
+    "clinical psychology",
     "counselling",
     "mental health",
     "therapy",
@@ -28,9 +28,9 @@ export const metadata = {
     "Vaddepalli Latha",
   ],
   openGraph: {
-    title: "Vaddepalli Latha | Counselling Psychologist",
+    title: "Vaddepalli Latha | MA Clinical Psychology",
     description:
-      "Let's talk, you matter. Book a confidential session with a compassionate counselling psychologist.",
+      "Let's talk, you matter. Book a confidential session with a compassionate MA Clinical Psychology professional.",
     type: "website",
   },
 };

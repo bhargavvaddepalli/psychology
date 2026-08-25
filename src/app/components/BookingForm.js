@@ -68,7 +68,7 @@ export default function BookingForm() {
               type="tel"
               id="phone"
               name="phone"
-              placeholder="+91 XXXXX XXXXX"
+              placeholder="+91 6280835389"
               value={formData.phone}
               onChange={handleChange}
               required

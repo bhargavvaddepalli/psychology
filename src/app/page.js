@@ -26,7 +26,7 @@ export default function Home() {
               Starts Here
             </h1>
             <p className="hero-name">Vaddepalli Latha</p>
-            <p className="hero-credential">Counselling Psychologist</p>
+            <p className="hero-credential">MA Clinical Psychology</p>
             <p className="hero-description">
               Offering a compassionate, confidential, and non-judgmental space
               for individuals seeking emotional support and guidance. With 5+
@@ -61,7 +61,8 @@ export default function Home() {
 
           <div className="hero-image-wrapper">
             <div className="hero-image-container">
-              <div
+              <img src="/latha-vaddepalli.jpg" alt="Vaddepalli Latha, MA Clinical Psychology" />
+              {/*
                 style={{
                   width: '100%',
                   height: '100%',
@@ -87,7 +88,7 @@ export default function Home() {
                 >
                   Healing begins with a conversation
                 </span>
-              </div>
+              */}
             </div>
             <div className="hero-image-decoration">
               <div className="hero-deco-ring" />
@@ -105,7 +106,8 @@ export default function Home() {
         <div className="container">
           <div className="about-image-wrapper reveal-left">
             <div className="about-image">
-              <div
+              <img src="/latha-about.jpg" alt="Vaddepalli Latha" />
+              {/*
                 style={{
                   width: '100%',
                   height: '100%',
@@ -118,7 +120,7 @@ export default function Home() {
                 }}
               >
                 🌿
-              </div>
+              */}
               <div className="about-image-accent" />
             </div>
             <div className="about-experience-badge">
@@ -133,7 +135,7 @@ export default function Home() {
               A Safe Space for Your Mental Well-being
             </h2>
             <p className="about-text">
-              I am a dedicated Counselling Psychologist committed to providing a
+              I am a dedicated MA Clinical Psychology professional committed to providing a
               safe, empathetic, and transformative therapeutic experience. My
               approach integrates evidence-based techniques with genuine human
               connection, helping you navigate life&apos;s challenges with clarity
@@ -450,7 +452,7 @@ export default function Home() {
                 <div className="booking-contact-icon">📱</div>
                 <div>
                   <div className="booking-contact-label">Phone</div>
-                  <div className="booking-contact-value">+91 XXXXX XXXXX</div>
+                  <div className="booking-contact-value">+91 6280835389</div>
                 </div>
               </div>
               <div className="booking-contact-item">
@@ -458,7 +460,7 @@ export default function Home() {
                 <div>
                   <div className="booking-contact-label">Location</div>
                   <div className="booking-contact-value">
-                    Hyderabad, Telangana
+                    Vijayawada, Andhra Pradesh
                   </div>
                 </div>
               </div>
@@ -517,27 +519,6 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="footer-links">
-              <h4>Quick Links</h4>
-              <ul>
-                <li>
-                  <a href="#home">Home</a>
-                </li>
-                <li>
-                  <a href="#about">About</a>
-                </li>
-                <li>
-                  <a href="#support">Services</a>
-                </li>
-                <li>
-                  <a href="#sessions">Sessions</a>
-                </li>
-                <li>
-                  <a href="#booking">Book Session</a>
-                </li>
-              </ul>
-            </div>
-
             <div className="footer-contact">
               <h4>Get in Touch</h4>
               <div className="footer-contact-item">
@@ -546,7 +527,7 @@ export default function Home() {
               </div>
               <div className="footer-contact-item">
                 <span>📍</span>
-                <span>Hyderabad, Telangana</span>
+                <span>Vijayawada, Andhra Pradesh</span>
               </div>
               <div className="footer-contact-item">
                 <span>🕐</span>
