@@ -27,6 +27,20 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  useEffect(() => {
+    document.body.style.overflow = mobileOpen ? 'hidden' : '';
+
+    const closeOnEscape = (event) => {
+      if (event.key === 'Escape') setMobileOpen(false);
+    };
+
+    window.addEventListener('keydown', closeOnEscape);
+    return () => {
+      document.body.style.overflow = '';
+      window.removeEventListener('keydown', closeOnEscape);
+    };
+  }, [mobileOpen]);
+
   const handleNavClick = (e, id) => {
     e.preventDefault();
     setMobileOpen(false);
@@ -67,6 +81,7 @@ export default function Navbar() {
           </div>
 
           <button
+            type="button"
             className={`hamburger ${mobileOpen ? 'active' : ''}`}
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle navigation menu"
